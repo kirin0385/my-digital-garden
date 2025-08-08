@@ -1,0 +1,51 @@
+{
+  "id": "f7e992f6-85f8-40ae-9bb2-93fe363a81eb",
+  "title": "检索内容",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "检索内容",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "id": "6d276c32-cf98-423c-8af6-1ab7e6a7d2dd",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "1.焊接工艺/FSW.md"
+        }
+      ]
+    }
+  ],
+  "createdAt": 1753665532325,
+  "updatedAt": 1753665554014,
+  "schemaVersion": 1
+}

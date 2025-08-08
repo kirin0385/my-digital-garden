@@ -1,0 +1,56 @@
+{
+  "id": "0136eeaf-3f40-4abd-b9c0-56240434d0d8",
+  "title": "这个是什么",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "这个是什么",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n这个是什么\n\n"
+        }
+      ],
+      "id": "d8145c77-98ad-4de3-8a0f-e9742dc9791c",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "液冷板/1.液冷板类型和工艺.md"
+        }
+      ]
+    }
+  ],
+  "createdAt": 1753324701499,
+  "updatedAt": 1753324701499,
+  "schemaVersion": 1
+}

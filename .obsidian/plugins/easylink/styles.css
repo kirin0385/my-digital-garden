@@ -1,0 +1,60 @@
+/* styles.css */
+
+/* 모달의 각 제안 항목에 대한 기본 스타일 */
+.suggestion-item.similar-notes-result-item {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 10px;
+}
+
+/* 검색 결과의 메인 컨텐츠 영역 */
+.similar-notes-result-item .suggestion-content {
+    display: flex;
+    align-items: center;
+}
+
+/* 타입 아이콘 (H, P) 스타일 */
+.similar-notes-result-item .suggestion-type-icon {
+    font-weight: bold;
+    color: var(--text-muted);
+    background-color: var(--background-secondary);
+    border-radius: 4px;
+    padding: 2px 6px;
+    margin-right: 8px;
+    font-size: 0.9em;
+}
+
+/* 내용 미리보기 텍스트 */
+.similar-notes-result-item .suggestion-main-text {
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 유사도 점수 뱃지 */
+.similar-notes-result-item .suggestion-score-badge {
+    font-size: 0.8em;
+    font-weight: 500;
+    color: var(--text-on-accent);
+    background-color: var(--interactive-accent);
+    padding: 2px 6px;
+    border-radius: 8px;
+    margin-left: 8px;
+}
+
+/* 파일 경로를 보여주는 보조 정보 영역 */
+.similar-notes-result-item .suggestion-aux {
+    margin-top: 4px;
+}
+
+.similar-notes-result-item .suggestion-file-path {
+    font-size: 0.8em;
+    color: var(--text-faint);
+    margin-left: 28px; /* 아이콘 너비만큼 들여쓰기 */
+}
+
+.similar-notes-percent-sign {
+    margin-left: 8px;
+    color: var(--text-muted);
+}
